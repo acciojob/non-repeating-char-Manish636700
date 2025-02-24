@@ -1,5 +1,5 @@
 function firstNonRepeatedChar(str) {
- if(typeof str !== 'String' || str.length === 0) 
+ if(typeof str !== 'string' || str.length === 0) 
 	 return "";
 
 	count count={};
