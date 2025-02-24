@@ -13,7 +13,7 @@ function firstNonRepeatedChar(str) {
 			if(count[a]===1)
 				return a;
 		}
-	return "";
+	return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
