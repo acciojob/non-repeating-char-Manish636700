@@ -2,10 +2,10 @@ function firstNonRepeatedChar(str) {
  if(typeof str !== 'String' || str.length === 0) 
 	 return "";
 
-	let count={};
+	count count={};
 
 	for(let a of str){
-		count[a] === (const[a] || 0)+1;
+		count[a] =(const[a] || 0)+1;
 	}
 
 	for(let a of str)
